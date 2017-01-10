@@ -19,3 +19,9 @@ class CheckingsAccount {
         console.log(this.initialBalance);
     }
 }
+
+ let MyCheckingsAccount:CheckingsAccount = new CheckingsAccount(100000, "Kelsey");
+
+MyCheckingsAccount.deposit(500);
+MyCheckingsAccount.withdraw(50);
+MyCheckingsAccount.checkBalance();
